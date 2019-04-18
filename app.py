@@ -20,7 +20,8 @@ def add_user():
     username = request.json['username']
     email = request.json['email']
     
-    return username+' '+email
+    return jsonify(username,email)
+
 
 if __name__ == '__main__':    
     app.run(debug=True)
