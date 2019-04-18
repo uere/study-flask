@@ -1,8 +1,8 @@
 from flask import Flask, request, jsonify
 
 app = Flask(__name__)
-username = 'a'
-email= 'a' 
+username = ''
+email= '' 
 @app.route("/")
 def hello():
     return "Hello World!"
