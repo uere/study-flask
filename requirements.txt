@@ -1,1 +1,2 @@
 flask ==1.0.2
+prometheus_flask_exporter==0.7.1
