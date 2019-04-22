@@ -4,7 +4,7 @@ from prometheus_flask_exporter import PrometheusMetrics
 app = Flask(__name__)
 metrics = PrometheusMetrics(app, export_defaults=True, defaults_prefix='study_flask')
 #Static metrics
-metrics.info('app_info', 'Study of flask', version='0.0.3')
+metrics.info('app_info', 'Study of flask', version='0.0.4')
 
 
 username = ''
