@@ -10,10 +10,7 @@ metrics.info('app_info', 'Study of flask', version='0.0.3')
 username = ''
 email= '' 
 
-# endpoints = ('/','/api')
-# @app.route("/metrics")
-# def metrics():
-#     return metrics.app_info, 200
+endpoints = ('/hello','/api')
 
 @app.route("/hello")
 def hello():
